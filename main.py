@@ -49,7 +49,7 @@ while True:
         print(f"{base} ^ {exp} = {base ** exp}")
     
     elif option == "7":
-        print("Goodbye!")
+        print("Goodbye! Hope you liked the calculator!")
         break
     
     else:
