@@ -32,5 +32,5 @@ Calculation history
 Percentage calculation
 
 👨‍💻 Author
-Raghav Krishna
-GitHub Profile
+**Raghav Krishna**
+
