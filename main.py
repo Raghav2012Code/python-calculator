@@ -1,14 +1,15 @@
 import math
 
 while True:
-    print("Welcome to the calculator.")
-    print("\nWhat is the operation you want to do?")
+    print("\nWelcome to the calculator.")
+    print("What is the operation you want to do?")
     print("1. Addition")
     print("2. Subtraction")
     print("3. Multiplication")
     print("4. Division")
     print("5. Square Root")
-    print("6. Exit")
+    print("6. Exponents")
+    print("7. Exit")
     
     option = input("Enter option: ")
     
@@ -41,8 +42,13 @@ while True:
             print("Invalid operation! Enter a positive number.")
         else:
             print(f"The square root of {sqroot} is {math.sqrt(sqroot)}")
-    
+
     elif option == "6":
+        base = float(input("Enter the Base: "))
+        exp = float(input("Enter the Exponent: "))
+        print(f"{base} ^ {exp} = {base ** exp}")
+    
+    elif option == "7":
         print("Goodbye!")
         break
     
